@@ -4,7 +4,7 @@ export default function header() {
     const currentPage = useLocation().pathname;
 
     return(
-        <>
+        <header>
             <h1>Vijay Natarajan</h1>
             <ul className="nav nav-tabs">
                 <li className="nav-item">
@@ -20,6 +20,6 @@ export default function header() {
                 <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>Resume</Link>
                 </li>
             </ul>
-        </>
+        </header>
     )
 }
