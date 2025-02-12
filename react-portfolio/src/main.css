@@ -52,8 +52,23 @@ p {
     font-size: 22px;
     padding-left: 5px;
 }
-
-
+.error-text{
+    padding-left: 15px;
+    font-size:18px;
+    color:lightcoral;
+}
+form {
+    padding-left: 10px;
+}
+input{
+    background: black;
+}
+textarea{
+    background: black;
+}
+button{
+    background: black;
+}
 
 footer {
     background: rgb(40, 0, 0);
