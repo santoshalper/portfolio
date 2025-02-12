@@ -6,20 +6,12 @@ export default function header() {
     return(
         <header>
             <h1>Vijay Natarajan</h1>
-            <ul className="nav nav-tabs">
-                <li className="nav-item">
-                <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>About Me</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>Resume</Link>
-                </li>
-            </ul>
+            <nav className="nav">
+                <Link to="/" className={currentPage === '/' ? 'headlink active' : 'headlink'}>About Me</Link>
+                <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'headlink active' : 'headlink'}>Portfolio</Link>
+                <Link to="/Contact" className={currentPage === '/Contact' ? 'headlink active' : 'headlink'}>Contact</Link>
+                <Link to="/Resume" className={currentPage === '/Resume' ? 'headlink active' : 'headlink'}>Resume</Link>
+            </nav>
         </header>
     )
 }

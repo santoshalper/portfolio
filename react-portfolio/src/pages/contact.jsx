@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
         <>
-            <h2>About Me</h2>
+            <h2>Contact</h2>
             <p>placeholder</p>
         </>
     )
