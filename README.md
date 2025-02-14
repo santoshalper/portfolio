@@ -14,7 +14,7 @@ to view the Website, go to the following link: https://vijaynportfolio.netlify.a
 
 ## Usage
 
-![about me](./imgs/1.png)
+![about me](imgs/1.png)
 When opening the page, you will be directed to the About Me page. This page contains a small profile picture and paragraph describing my abilities as a full-stack developer.
 <br><br>
 
