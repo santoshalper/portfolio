@@ -3,7 +3,7 @@ export default function Portfolio() {
     return (
         <>
             <h2>Portfolio</h2>
-            <Card background="url(src/assets/runtracker.png)" 
+            <Card background="url(assets/runtracker.png)" 
                   name="Run Tracker" 
                   link="https://github.com/santoshalper/project1"/>
             <Card background="url(/assets/FiveDayWeather.png)" 
