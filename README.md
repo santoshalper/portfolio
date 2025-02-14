@@ -10,7 +10,7 @@ To run the website locally, run the following console commands:
  "npm i" to install dependencies.
  "npm run dev" to run the website through vite.
 
-to view the Website, go to the following link: https://vijaynportfolio.netlify.app/Resume
+to view the Website, go to the following link: https://vijaynportfolio.netlify.app/
 
 ## Usage
 
