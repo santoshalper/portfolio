@@ -5,13 +5,13 @@ export default function footer() {
         <footer>
             <div className='foot'>
                 <a href="https://github.com/santoshalper" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/github-mark-white.png" alt="github" />
+                    <img src="/src/assets/github-mark-white.png" alt="github" />
                 </a>
                 <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/In-White.png" alt="linked in" />
+                    <img src="/src/assets/In-White.png" alt="linked in" />
                 </a>
                 <a href="https://www.stackoverflow.com" target="_blank" rel="noopener noreferrer">
-                    <img src="src/assets/Stack_Overflow_icon.png" alt="stack overflow" />
+                    <img src="/src/assets/Stack_Overflow_icon.png" alt="stack overflow" />
                 </a>
             </div>
         </footer>
