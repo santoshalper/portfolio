@@ -5,7 +5,7 @@ export default function Card({background, name, link}){
                 <section className="flex-item" style={{backgroundImage: background}}>
                     <p className="card">{name}</p>
                     <a href={link} target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/github-mark-white.png" alt="github" class="inside"/>
+                        <img src="/assets/github-mark-white.png" alt="github" class="inside"/>
                     </a>
                 </section>
             </section>
